@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "new-darkelle-project": {
+      "description": "A blank schematic.",
+      "factory": "./new-darkelle-project/index#newDarkelleProject"
+    }
+  }
+}
